@@ -1,0 +1,46 @@
+Returns Processor User Manual
+
+Please refer to readme.txt for installation instructions.
+
+Starting:
+Double-click on the ReturnsProcessor.jar to start the application.
+
+Exiting:
+Click on the close-window button at the upper-left of the main application window.
+If there is unsaved progress a confirmation dialog will be presented to confirm
+that you would like to exit without saving.
+
+Use:
+Use of the application is as simple as entering a product code OR UPC, a good
+or reject quantity, and then pressing the 'Add Count' button.
+
+Two entry modes are available -- manual, and auto-enter on UPC entry.  The mode
+is selected via the check-box at the top of the window labeled 'Auto-Enter on UPC entry).
+Not Checked = Manual Mode
+Checked = Auto-Enter Mode
+In Manual Mode you must manually input the good and reject product quantities
+and press the 'Add Count' button.
+In Auto-Enter Mode you must start by selecting the UPC-entry text-box.  From then on
+you may use a scan-gun (or manual entry) to enter a UPC code into the text box.  The
+count for that product will be automatically incremented by one.  This mode is most
+useful for counting boxes of product one product at a time, scanning each one as you
+go.
+
+To edit an existing count either select it manually from the product view table
+or press the 'Search' button to search by code.  After selecting a product, you
+may edit the good and reject quantities in the provided boxes.  Once you have
+finished updating the quantities, press the 'Update Record' button to finalize
+the change.
+
+Saving:
+To save your progress, press the 'Save' button.  A file selection dialog will be
+opened where you may specify the path and name of the file to save to.  Regardless
+of chosen extension, the data will internally be in .CSV format.
+
+Loading:
+To load a previously saved count-sheet, press the 'Load' button.  A file selection
+dialog will be opened where you may navigate to and select your previous sheet.
+The chosen file should be a previously saved file from this application -- any 
+other files will not load properly and could cause errors or cause the application
+to crash.
+

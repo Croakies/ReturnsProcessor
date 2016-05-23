@@ -1,22 +1,21 @@
-/*
- * Decompiled with CFR 0_114.
- */
 package net.shadowmage.returnprocessor;
 
 import java.util.HashMap;
-import net.shadowmage.returnprocessor.Product;
 
-public class ProductGroup {
-    String upc;
-    HashMap<String, Product> productsByCode;
+public class ProductGroup
+{
 
-    public ProductGroup(String upc) {
-        this.upc = upc;
-        this.productsByCode = new HashMap();
-    }
+String upc;
+HashMap<String, Product> productsByCode;
 
-    public void addProduct(Product p) {
-        this.productsByCode.put(p.code, p);
-    }
+public ProductGroup(String upc)
+  {
+  this.upc = upc;
+  this.productsByCode = new HashMap<String, Product>();
+  }
+
+public void addProduct(Product p)
+  {
+  this.productsByCode.put(p.code, p);
+  }
 }
-
